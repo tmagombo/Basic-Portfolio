@@ -1,0 +1,67 @@
+#YourName {
+    background-color: azure;
+    margin: auto;
+    height: 25px;
+    position: fixed;
+    width: 100%;
+}
+
+h1{
+    padding:0px;
+    margin: 0px;
+    width: 500px;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    position: absolute;
+    top: 4px;
+    right: 20px;
+}
+li{
+    float: right;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    overflow: auto;
+    padding: 10px;
+} 
+div {
+align-content: center;
+width: 960px;
+background-color: azure;
+padding: 20px;
+margin: auto;
+}
+footer {
+width: 1000px;
+height: 30px;
+background-color: darkgrey;
+margin: auto;
+max-width: 100%;
+}
+
+body {
+background-image: url(/Basic-Portfolio/assets/images/white-waves.png);
+padding: 0px;
+}
+
+img {
+height: 164px;
+width: 250px;
+float: left;
+padding-right: 20px;
+
+}
+
+h2 {
+
+color: #4aaaa5;
+
+}
+
+p {
+
+font-size: 13pt;
+}
