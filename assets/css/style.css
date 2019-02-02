@@ -10,6 +10,12 @@
     border-width: 0pt 0pt 1.5pt 0pt;
 }
 
+a:-webkit-any-link {
+    color: #777777;
+    cursor: pointer;
+    text-decoration: none;
+}
+
 h1{
     padding:0px;
     margin: 0px;
@@ -49,6 +55,7 @@ li {
     overflow: auto;
     padding: 10px;
     color: #777777;
+    font-family: Georgia, Times, Times New Roman, serif;
 } 
 
 #portfolio{
@@ -107,7 +114,8 @@ padding-right: 20px;
 h2 {
 
 color: #4aaaa5;
-
+padding: 15px;
+margin: 0;
 }
 
 h1 {
@@ -138,4 +146,38 @@ border: 0;
 p {
 color: #777777;
 font-size: 13pt;
+margin: 0pt;
 }
+
+input {
+
+    width: 800px;
+}
+ #box {
+
+width: 800px;
+height: 200px;
+
+ }
+
+ #button {
+color: black;
+width: 100px;
+ }
+
+ #contact {
+    align-content: center;
+    width: 800px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    border: solid;
+    border-color: #dddddd;
+    }
+     input {
+
+
+        color: gray;
+     }
+    
