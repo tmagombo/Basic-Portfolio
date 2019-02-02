@@ -6,8 +6,9 @@
     position: fixed;
     top: 0;
     padding: 0;
+    border-style: solid;
     border-color: #cccccc;
-    border-width: 0pt 0pt 1.5pt 0pt;
+    border-width: 0px 0px 1px 0px;
 }
 
 a:-webkit-any-link {
@@ -73,14 +74,64 @@ li {
 
 }
 
-div {
-align-content: center;
+#content {
 width: 800px;
 background-color: #ffffff;
 padding: 20px;
+height: 430px;
 margin: auto;
 border: solid;
 border-color: #dddddd;
+}
+#img3 {
+
+position: absolute;
+left: 575;
+bottom: 95;
+width: 225;
+text-align: center;
+margin: 0;
+height:35px;
+width: 220px;
+color: white;
+font-size: 14pt;
+padding: 2.5px;
+background-color: #4aaaa5;
+z-index: 1;
+
+}
+
+#img2 {
+    position: absolute;
+    left: 310;
+    bottom: 95;
+    font-size: 14pt;
+
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+    color: white;
+    height:35px;
+    width: 220px;
+    padding: 2.5px;
+    background-color: #4aaaa5;
+    z-index: 1;
+}
+
+#img1 {
+position: absolute;
+left: 43;
+height:35px;
+background-color: #4aaaa5;
+padding: 2.5px;
+color: white;
+font-size: 14pt;
+bottom: 95;
+width: 220;
+text-align: center;
+margin: 0;
+z-index: 1;
+
 }
 
 footer {
@@ -88,8 +139,8 @@ width: 100%;
 height: 40px;
 background-color: #666666;
 margin: auto;
-max-width: 100%;
 position: fixed;
+left: 0;
 bottom: 0;
 border-color: #4aaaa5;
 border-style: solid;
@@ -102,11 +153,12 @@ padding: 0px;
 margin: 0px;
 }
 
-img {
-height: 164px;
+#me {
+height: 250px;
 width: 250px;
 float: left;
-padding-right: 20px;
+padding: 10px;
+padding-right: 15px;
 
 }
 
@@ -147,12 +199,10 @@ p {
 color: #777777;
 font-size: 13pt;
 margin: 0pt;
+padding: 10;
 }
 
-input {
 
-    width: 800px;
-}
  #box {
 
 width: 800px;
@@ -161,9 +211,27 @@ height: 200px;
  }
 
  #button {
-color: black;
+color: #777777;
 width: 100px;
+font-family: Georgia, Times, Times New Roman, serif;
+
  }
+
+ h3 {
+color: #777777;
+
+ }
+
+
+ .w3-display-bottommiddlew3-container {
+
+    width: 15px;
+    background-color: #ffffff;
+    padding: 0px;
+    margin: auto;
+ }
+
+
 
  #contact {
     align-content: center;
@@ -176,8 +244,30 @@ width: 100px;
     border-color: #dddddd;
     }
      input {
-
-
         color: gray;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 800px;
+     }
+
+
+     img {
+        padding: 20.5px;
+        margin: 0;
+        z-index: -1;
+        float: right;
+        clear: left;
      }
     
+     #images  {
+        height: 300px;
+        width: 800px;
+        margin: auto;
+        z-index: -1;
+     }
+
+     h3 {
+
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+font-weight: normal;
+     }
