@@ -19,21 +19,52 @@ h1{
 ul {
     padding: 0px;
     margin: 0;
-    width: 200px;
-    margin-left: auto;
+    height: 40px;
+    width: 280px;
     position: absolute;
-    right: 0;
+    right: 260px;
     top: 13;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
-li{
-    float: right;
+
+li:active {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li:visited {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li {
     display: block;
+    float: right;
     text-align: center;
     text-decoration: none;
     overflow: auto;
     padding: 10px;
     color: #777777;
 } 
+
+#portfolio{
+
+    width: 800px;
+    background-color: #ffffff;   
+    padding: 20px;
+    height: 390px;        
+    margin: auto;
+    border: solid;
+    border-color: #dddddd;
+    position: absolute;
+    top: 108px;
+    left: 260px;
+
+}
 
 div {
 align-content: center;
@@ -95,7 +126,7 @@ font-family: Georgia, Times, Times New Roman, serif;
 #tm {
 margin: 0;
 position: fixed;
-left: 190px;
+left: 260px;
 color: white;
 padding: 0;
 width: 250px;
