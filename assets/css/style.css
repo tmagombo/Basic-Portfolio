@@ -256,7 +256,11 @@ color: #777777;
         z-index: -1;
         float: right;
         clear: left;
+        height: 225;
+        width: 225;
      }
+
+    
     
      #images  {
         height: 300px;
