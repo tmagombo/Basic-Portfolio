@@ -269,6 +269,10 @@ color: #777777;
         z-index: -1;
      }
 
+     #thumbnail {
+        background-image: url(/assets/images/img1.jpg);
+     }
+
      h3 {
 
 font-family: Arial, Helvetica, sans-serif;
